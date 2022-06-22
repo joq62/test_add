@@ -30,7 +30,7 @@ init([]) ->
                  intensity => 0,
                  period => 1},
     ChildSpecs = [#{id=>test_add,
-		    start=>{test_add_server,start,[]}}],
+		    start=>{test_add,start,[]}}],
    
     {ok, {SupFlags, ChildSpecs}}.
 
